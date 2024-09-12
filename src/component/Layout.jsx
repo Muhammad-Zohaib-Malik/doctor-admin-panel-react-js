@@ -1,4 +1,5 @@
 import {
+    Activity,
   CircleGauge,
   Copyright,
   Earth,
@@ -17,6 +18,11 @@ const Layout = ({ children }) => {
       icon: <CircleGauge />,
       link: "/dashboard",
     },
+    {
+        title: "Device",
+        icon: <Activity />,
+        link: "/device",
+      },
   ];
   const [avatar, setAvatar] = useState("/images/Eng.webp");
   const handleLanguageChange = (e) => {
