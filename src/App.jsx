@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./component/Home";
 import Dashboard from "./component/Dashboard";
+import Device from "./component/Device";
 
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
 
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/device" element={<Dashboard />} />
+        <Route path="/device" element={<Device />} />
 
 
 
